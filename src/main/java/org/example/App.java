@@ -1,5 +1,7 @@
 package org.example;
 
+import org.springframework.jdbc.core.JdbcTemplate;
+
 /**
  * Hello world!
  *
@@ -10,4 +12,5 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+
 }
