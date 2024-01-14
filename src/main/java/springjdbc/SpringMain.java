@@ -23,9 +23,9 @@ public class SpringMain {
 
 
 //        JdbcTemplate template = context.getBean("jdbcTemplate", JdbcTemplate.class);
-//        //insert query
+          //insert query
 //        String query ="insert into students (id, name, city) values (?,?,?)";
-//        //fire query
+          //fire query
 //        int result = template.update(query, 3, "Swaraj", "Nagpur");
 //        System.out.println("Number of records inserted are: " + result);
     }
