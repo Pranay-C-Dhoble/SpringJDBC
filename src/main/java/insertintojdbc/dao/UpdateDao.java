@@ -1,9 +1,10 @@
-package springjdbc.dao;
+package insertintojdbc.dao;
 
+import insertintojdbc.dao.StudentDao;
 import org.springframework.jdbc.core.JdbcTemplate;
-import springjdbc.model.Student;
+import insertintojdbc.model.Student;
 
-public class UpdateDao implements StudentDao{
+public class UpdateDao implements StudentDao {
     private JdbcTemplate jdbcTemplate;
 
     public JdbcTemplate getJdbcTemplate() {

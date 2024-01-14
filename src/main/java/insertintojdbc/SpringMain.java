@@ -1,20 +1,19 @@
-package springjdbc;
+package insertintojdbc;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.jdbc.core.JdbcTemplate;
-import springjdbc.dao.UpdateDao;
-import springjdbc.model.Student;
+import insertintojdbc.dao.UpdateDao;
+import insertintojdbc.model.Student;
 
 public class SpringMain {
     public static void main(String[] args) {
         System.out.println("My Program Starts...");
-        ApplicationContext context = new ClassPathXmlApplicationContext("springjdbc.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("insertintojdbc.xml");
         UpdateDao dao = context.getBean("update", UpdateDao.class);
 
         Student s = new Student();
-        s.setId(4);
-        s.setName("Firoj");
+        s.setId(6);
+        s.setName("Will");
         s.setCity("Nagpur");
 
         int result = dao.insert(s);

@@ -1,6 +1,6 @@
-package springjdbc.dao;
+package insertintojdbc.dao;
 
-import springjdbc.model.Student;
+import insertintojdbc.model.Student;
 
 public interface StudentDao {
     public int insert(Student student);

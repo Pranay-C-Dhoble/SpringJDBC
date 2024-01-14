@@ -15,7 +15,7 @@
         <property name="dataSource" ref="ds"/>
     </bean>
 
-    <bean class="springjdbc.dao.UpdateDao" name="update">
+    <bean class="insertintojdbc.dao.UpdateDao" name="update">
         <property name="jdbcTemplate" ref="jdbcT"/>
     </bean>
 </beans>

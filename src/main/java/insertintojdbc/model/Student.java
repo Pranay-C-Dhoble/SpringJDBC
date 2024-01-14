@@ -1,4 +1,4 @@
-package springjdbc.model;
+package insertintojdbc.model;
 
 public class Student {
     private int id;
